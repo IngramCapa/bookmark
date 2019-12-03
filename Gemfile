@@ -6,6 +6,7 @@ source "https://rubygems.org"
 
 gem 'rake'
 gem 'sinatra'
+gem 'pg' # Ruby pg is a module that allows Ruby programs to interact with the PostgreSQL database engine.
 
 group :test do
   gem 'capybara'
