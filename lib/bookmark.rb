@@ -6,7 +6,7 @@ class Bookmark
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'bookmark_manager_test')
     else
-      #using pg to connect to database
+      #using pg to connect to prod database
       connection = PG.connect(dbname: 'bookmark_manager')
     end
 
