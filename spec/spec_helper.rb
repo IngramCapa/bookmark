@@ -1,15 +1,15 @@
 # Set the environment to "test"
-ENV['RACK_ENV'] = 'test'
+ENV['ENVIRONMENT'] = 'test'
 
 # Bring in the contents of the `app.rb` file
 require './app'
 
 # Require all the testing gems
 require 'capybara/rspec'
-require 'simplecov'
-require 'simplecov-console'
 require 'capybara'
 require 'rspec'
+require 'simplecov'
+require 'simplecov-console'
 
 # Tell Capybara to talk to BookmarkManager
 
